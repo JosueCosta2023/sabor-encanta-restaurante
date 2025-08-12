@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-primary mb-4">Sabor Gourmet</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">Restaurante São José</h3>
             <p className="text-background/80 leading-relaxed mb-4">
-              Há mais de 15 anos criando experiências gastronômicas únicas 
+              Há mais de 5 anos criando experiências gastronômicas únicas 
               com ingredientes selecionados e muito amor pela culinária.
             </p>
             <div className="flex space-x-4">
@@ -38,17 +38,17 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-background/80">(11) 99999-9999</span>
+                <span className="text-background/80">(65) 3386-1271</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-background/80">contato@saborgourmet.com</span>
+                <span className="text-background/80">restaurante@diamanteazul.net.br</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
                 <span className="text-background/80">
-                  Rua dos Sabores, 123<br />
-                  Vila Gastronômica, São Paulo - SP
+                  Av Mato Grosso, 825<br />
+                  São José do Rio Claro, MT
                 </span>
               </div>
             </div>
@@ -60,21 +60,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Clock className="w-4 h-4 text-primary" />
-                <span className="text-background/80">Segunda a Quinta</span>
+                <span className="text-background/80">Segunda a Segunda</span>
               </div>
-              <div className="text-background/60 ml-6 mb-2">18:00 - 23:00</div>
+              <div className="text-background/60 ml-6 mb-2">06:00 - 14:00</div>
               
-              <div className="flex items-center space-x-2">
-                <Clock className="w-4 h-4 text-primary" />
-                <span className="text-background/80">Sexta e Sábado</span>
-              </div>
-              <div className="text-background/60 ml-6 mb-2">18:00 - 00:00</div>
-              
-              <div className="flex items-center space-x-2">
-                <Clock className="w-4 h-4 text-primary" />
-                <span className="text-background/80">Domingo</span>
-              </div>
-              <div className="text-background/60 ml-6">12:00 - 22:00</div>
+  
             </div>
           </div>
 
@@ -91,9 +81,6 @@ const Footer = () => {
               <a href="#contato" className="block text-background/80 hover:text-primary transition-colors">
                 Contato
               </a>
-              <a href="#reservas" className="block text-background/80 hover:text-primary transition-colors">
-                Reservas
-              </a>
               <a 
                 href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer uma reserva." 
                 target="_blank"
@@ -108,8 +95,8 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-background/60">
-            © 2024 Sabor Gourmet. Todos os direitos reservados. 
-            Desenvolvido com ❤️ para proporcionar experiências gastronômicas únicas.
+            © 2025 Restaurante São José. Todos os direitos reservados. 
+            Desenvolvido com ❤️ por <a href="https://github.com/JosueCosta2023" target="_blank" className="text-primary">Josué Ocanha Costa</a> 
           </p>
         </div>
       </div>

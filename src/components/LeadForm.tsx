@@ -58,7 +58,7 @@ const LeadForm = () => {
                 Ofertas Exclusivas
               </CardTitle>
               <CardDescription className="text-muted-foreground">
-                Preencha seus dados e ganhe 10% de desconto na primeira compra!
+                Preencha seus dados e receba nossa lista de ofertas e novidades semanalmente.
               </CardDescription>
             </CardHeader>
             

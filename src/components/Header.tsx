@@ -20,7 +20,6 @@ const Header = () => {
               <a href="#cardapio" className="nav-link">Cardápio</a>
               <a href="#sobre" className="nav-link">Sobre Nós</a>
               <a href="#contato" className="nav-link">Contato</a>
-              <a href="#reservas" className="nav-link">Reservas</a>
             </div>
           </nav>
 
