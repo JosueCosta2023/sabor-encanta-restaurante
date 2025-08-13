@@ -6,7 +6,7 @@ Um site institucional moderno para restaurante, desenvolvido com React, TypeScri
 
 ## 🚀 Links Importantes
 
-- 🌐 Site em Produção: (adicione aqui o link quando disponível)
+- 🌐 Site em Produção: (https://sabor-encanta-restaurante.vercel.app/)
 - 🔗 Repositório: https://github.com/JosueCosta2023/sabor-encanta-restaurante
 
 ---
@@ -110,43 +110,37 @@ O deploy pode ser feito facilmente em plataformas como Vercel, Netlify ou GitHub
 4. Push para a branch (`git push origin feature/NovaFeature`)
 5. Abra um Pull Request
 
----
 
-## 📄 Licença
+## 🛣️ Ilustração
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+### Desktop
+![Hero](./src/assets/hero.png)
+![Product](./src/assets/product.png)
+![Leads](./src/assets/leads.png)
 
----
+### Mobile
+<div style="display: flex; justify-content: space-between;">
+  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.32.jpeg" alt="Hero" style="width: 33%;" />
+  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.32%20(1).jpeg" alt="Product" style="width: 33%;" />
+  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.33.jpeg" alt="Lead" style="width: 33%;" />
+</div>
 
-## 👨‍💻 Autor
 
-Josué Ocanha Costa  
-FrontEnd Developer
 
-### Redes Sociais
+## 👨‍💻 **Autor**
 
-- [Linkedin - JosueOcanhaCosta](https://www.linkedin.com/in/josueocanhacosta)
-- [Github - JosueCosta2023](https://github.com/JosueCosta2023)
-- [Twitter - @JosueOcanhaCosta](https://twitter.com/JosueOcanhaCosta)
-- [Facebook - JosueCosta](https://facebook.com/JosueCosta)
-- [Whatsapp - Josue2023](https://wa.me/5565993408371)
+### Josué Ocanha Costa
+#### FrontEnd Developer
+#### Redes Sociais
 
-"Vida longa e próspera. 🖖🖖🖖"
+- Linkedin - [JosueOcanhaCosta](https://www.linkedin.com/in/josue-ocanha-costa/)
+- Github - [JosueCosta2023](https://github.com/JosueCosta2023)
+- Twitter - [@JosueOcanhaCosta](https://twitter.com/josue_ocanha)
+- Facebook - [JosueCosta](https://www.facebook.com/JosueOcanhaCosta2023)
+- Whatsapp - [Josue2023](https://wa.me/5565996408371?text=Ol%C3%A1%2C+encontrei+seu+whatsapp+no+Github.+Gostaria+de+falar+sobre+seus+projetos.)
 
+# "Vida longa e próspera. 🖖🖖🖖"
 Feito com o ❤️ por Josué Ocanha Costa
 
 ⭐ Se este projeto te ajudou, deixe uma estrela! ⭐
 
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e53debaf-5f60-4131-80fc-3a746dba8d26) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
