@@ -2,6 +2,9 @@ import enterpriceData from "@/variables";
 import { MapPin, Clock, Phone, Mail, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
+
+  const date = new Date().getFullYear()
+
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,7 +98,7 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-background/60">
-            © 2025 Restaurante São José. Todos os direitos reservados. 
+            © {date} "{enterpriceData.razaoSocial}". Todos os direitos reservados. 
             Desenvolvido com ❤️ por <a href="https://github.com/JosueCosta2023" target="_blank" className="text-primary">Josué Ocanha Costa</a> 
           </p>
         </div>
