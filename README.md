@@ -1,63 +1,142 @@
-# Welcome to your Lovable project
+# 🍽️ Sabor Encanta Restaurante
 
-## Project info
+Um site institucional moderno para restaurante, desenvolvido com React, TypeScript e TailwindCSS.
 
-**URL**: https://lovable.dev/projects/e53debaf-5f60-4131-80fc-3a746dba8d26
+---
 
-## How can I edit this code?
+## 🚀 Links Importantes
 
-There are several ways of editing your application.
+- 🌐 Site em Produção: (adicione aqui o link quando disponível)
+- 🔗 Repositório: https://github.com/JosueCosta2023/sabor-encanta-restaurante
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e53debaf-5f60-4131-80fc-3a746dba8d26) and start prompting.
+## 📋 Funcionalidades
 
-Changes made via Lovable will be committed automatically to this repo.
+- Página inicial com apresentação do restaurante
+- Seção de pratos em destaque
+- Depoimentos de clientes
+- Formulário de contato (Lead Form)
+- Informações de endereço, telefone e redes sociais
+- Layout responsivo e moderno
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tecnologias Utilizadas
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- ⚡ Framework: React 18+
+- 🔷 Linguagem: TypeScript
+- 💅 Estilização: TailwindCSS
+- ⚙️ Build: Vite
+- 🖼️ Imagens otimizadas
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚡ Instalação e Uso
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Pré-requisitos
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Node.js 18+
+- Git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 1. Clone o repositório:
+
+```bash
+git clone https://github.com/JosueCosta2023/sabor-encanta-restaurante.git
+cd sabor-encanta-restaurante
+```
+
+### 2. Instale as dependências:
+
+```bash
+npm install
+```
+
+### 3. Inicie o servidor de desenvolvimento:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 4. Build para produção:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Estrutura do Projeto
 
-## What technologies are used for this project?
+```
+src/
+├── assets/           # Imagens e mídias
+├── components/       # Componentes reutilizáveis
+│   └── ui/           # Componentes de UI (botão, card, etc)
+├── hooks/            # Hooks customizados
+├── lib/              # Funções utilitárias
+├── pages/            # Páginas principais
+├── App.tsx           # Componente principal
+├── main.tsx          # Ponto de entrada
+└── variables.ts      # Variáveis institucionais
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+## 🧪 Scripts Disponíveis
+
+- `npm run dev` # Inicia servidor de desenvolvimento
+- `npm run build` # Build para produção
+- `npm run preview` # Visualiza build de produção localmente
+
+---
+
+## 🌍 Deploy
+
+O deploy pode ser feito facilmente em plataformas como Vercel, Netlify ou GitHub Pages.
+
+### Passos básicos:
+
+1. Faça o build do projeto: `npm run build`
+2. Faça upload da pasta `dist/` para o serviço de hospedagem
+
+---
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`)
+3. Commit suas mudanças (`git commit -m 'feat: NovaFeature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+Josué Ocanha Costa  
+FrontEnd Developer
+
+### Redes Sociais
+
+- [Linkedin - JosueOcanhaCosta](https://www.linkedin.com/in/josueocanhacosta)
+- [Github - JosueCosta2023](https://github.com/JosueCosta2023)
+- [Twitter - @JosueOcanhaCosta](https://twitter.com/JosueOcanhaCosta)
+- [Facebook - JosueCosta](https://facebook.com/JosueCosta)
+- [Whatsapp - Josue2023](https://wa.me/5565993408371)
+
+"Vida longa e próspera. 🖖🖖🖖"
+
+Feito com o ❤️ por Josué Ocanha Costa
+
+⭐ Se este projeto te ajudou, deixe uma estrela! ⭐
+
 - Tailwind CSS
 
 ## How can I deploy this project?
