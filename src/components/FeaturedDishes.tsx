@@ -1,37 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, Star } from "lucide-react";
-import dish1 from "@/assets/dish-1.jpg";
-import dish2 from "@/assets/dish-2.jpg";
-import dish3 from "@/assets/dish-3.jpg";
+import enterpriceData from "@/variables";
 
-const dishes = [
-  {
-    id: 1,
-    name: "Salmão Grelhado Premium",
-    description: "Salmão fresco grelhado com molho de ervas finas e vegetais da estação",
-    price: "R$ 45,90",
-    image: dish1,
-    rating: 5,
-  },
-  {
-    id: 2,
-    name: "Pasta Italiana Especial",
-    description: "Massa artesanal com molho de tomates frescos, manjericão e queijo parmesão",
-    price: "R$ 32,90",
-    image: dish2,
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Picanha Noble",
-    description: "Picanha premium na brasa acompanhada de farofa especial e vinagrete",
-    price: "R$ 52,90",
-    image: dish3,
-    rating: 5,
-  },
-];
+
 
 const FeaturedDishes = () => {
+
+  // const msg = `Olá eu gostaria de fazer um pedido de marmitez ai no restaurante. \n  Tenho interesse na opção ${}. Vi que ela esta no valor de ${}. Por gentileza encaminhe talheres`
+
+
   return (
     <section id="cardapio" className="py-16 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +23,7 @@ const FeaturedDishes = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {dishes.map((dish, index) => (
+          {enterpriceData.produtos.map((dish, index) => (
             <div 
               key={dish.id} 
               className="card-dish animate-slide-up group"
@@ -54,8 +31,8 @@ const FeaturedDishes = () => {
             >
               <div className="relative overflow-hidden">
                 <img 
-                  src={dish.image} 
-                  alt={dish.name}
+                  src={dish.imagem} 
+                  alt={dish.titulo}
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-4 right-4">
@@ -68,19 +45,19 @@ const FeaturedDishes = () => {
               
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-2">
-                  {dish.name}
+                  {dish.titulo}
                 </h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  {dish.description}
+                  {dish.descricao}
                 </p>
                 
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-primary">
-                    {dish.price}
+                    R$: {dish.valor}
                   </span>
                   <Button 
                     className="btn-cta"
-                    onClick={() => window.open(`https://wa.me/5511999999999?text=Olá! Gostaria de pedir: ${dish.name}`, '_blank')}
+                    onClick={() => window.open(`https://wa.me/${enterpriceData.telefone}?text=Olá! Gostaria de pedir: ${dish.titulo}, hoje ela esta no valor de R$: ${dish.valor}. 😋`, '_blank')}
                   >
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Peça Agora
@@ -96,7 +73,7 @@ const FeaturedDishes = () => {
             variant="outline" 
             size="lg"
             className="text-lg px-8 py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-            onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Gostaria de ver o cardápio completo.', '_blank')}
+            onClick={() => window.open(`https://wa.me/55${enterpriceData.telefone}?text=Olá! Gostaria de ver o cardápio completo.`, '_blank')}
           >
             Ver Cardápio Completo
           </Button>

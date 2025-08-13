@@ -1,8 +1,9 @@
+import enterpriceData from "@/variables";
 import { MessageCircle } from "lucide-react";
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/5511999999999?text=Olá! Gostaria de saber mais informações.', '_blank');
+    window.open(`https://wa.me/55${enterpriceData.telefone}?text=Olá! Gostaria de saber mais informações.`, '_blank');
   };
 
   return (

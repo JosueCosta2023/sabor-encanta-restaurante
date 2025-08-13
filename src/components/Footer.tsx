@@ -1,3 +1,4 @@
+import enterpriceData from "@/variables";
 import { MapPin, Clock, Phone, Mail, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-primary mb-4">Restaurante São José</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">{enterpriceData.razaoSocial}</h3>
             <p className="text-background/80 leading-relaxed mb-4">
               Há mais de 5 anos criando experiências gastronômicas únicas 
               com ingredientes selecionados e muito amor pela culinária.
@@ -38,17 +39,17 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-background/80">(65) 3386-1271</span>
+                <span className="text-background/80">{enterpriceData.telefone}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-background/80">restaurante@diamanteazul.net.br</span>
+                <span className="text-background/80">{enterpriceData.email}</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
                 <span className="text-background/80">
-                  Av Mato Grosso, 825<br />
-                  São José do Rio Claro, MT
+                  {enterpriceData.endereco[0]}<br />
+                  {enterpriceData.endereco[1]}
                 </span>
               </div>
             </div>
@@ -60,11 +61,10 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Clock className="w-4 h-4 text-primary" />
-                <span className="text-background/80">Segunda a Segunda</span>
+                <span className="text-background/80">{enterpriceData.horarioFuncionamento[0]}</span>
               </div>
-              <div className="text-background/60 ml-6 mb-2">06:00 - 14:00</div>
+              <div className="text-background/60 ml-6 mb-2">{enterpriceData.horarioFuncionamento[1]}</div>
               
-  
             </div>
           </div>
 
@@ -82,7 +82,7 @@ const Footer = () => {
                 Contato
               </a>
               <a 
-                href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer uma reserva." 
+                href={`https://wa.me/55${enterpriceData.telefone}?text=Olá! Gostaria de fazer uma reserva.`} 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-background/80 hover:text-primary transition-colors"

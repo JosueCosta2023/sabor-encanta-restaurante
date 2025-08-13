@@ -11,15 +11,11 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Há mais de 15 anos, o <strong>Sabor Gourmet</strong> nasceu do sonho de compartilhar 
-              sabores únicos e criar momentos especiais através da gastronomia. Nossa paixão pela 
-              culinária nos levou a buscar sempre os melhores ingredientes e técnicas.
+              Há mais de uma década, nossa jornada começou com o propósito de transformar paixão em propósito. Inspirados pelo desejo de oferecer algo único, buscamos constantemente a excelência em cada detalhe do que fazemos.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Acreditamos que cada prato conta uma história e cada refeição é uma oportunidade 
-              de criar memórias inesquecíveis. Nossa equipe dedica-se diariamente a oferecer 
-              uma experiência gastronômica excepcional.
+              Acreditamos que cada projeto, produto ou serviço carrega consigo uma história, e cada interação é uma oportunidade de criar momentos marcantes. Nossa equipe trabalha diariamente com dedicação e comprometimento para proporcionar experiências que encantam e superam expectativas.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

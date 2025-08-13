@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
+import enterpriceData from "@/variables";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gradient">Sabor Gourmet</h1>
+            <h1 className="text-2xl font-bold text-gradient">{enterpriceData.razaoSocial}</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -27,7 +28,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Button 
               className="btn-cta"
-              onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido.', '_blank')}
+              onClick={() => window.open(`https://wa.me/55${enterpriceData.telefone}?text=Olá! Gostaria de fazer um pedido.`, '_blank')}
             >
               <Phone className="w-4 h-4 mr-2" />
               Peça Agora
@@ -56,7 +57,7 @@ const Header = () => {
               <div className="pt-3">
                 <Button 
                   className="btn-cta w-full"
-                  onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido.', '_blank')}
+                  onClick={() => window.open(`https://wa.me/55${enterpriceData.telefone}?text=Olá! Gostaria de fazer um pedido.`, '_blank')}
                 >
                   <Phone className="w-4 h-4 mr-2" />
                   Peça Agora

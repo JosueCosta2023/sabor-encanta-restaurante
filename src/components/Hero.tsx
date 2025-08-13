@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Utensils } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
+import enterpriceData from "@/variables";
 
 const Hero = () => {
   return (
@@ -37,7 +38,7 @@ const Hero = () => {
             <Button 
               size="lg"
               className="btn-primary text-lg px-8 py-6 animate-bounce-in"
-              onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido.', '_blank')}
+              onClick={() => window.open(`https://wa.me/55${enterpriceData.telefone}?text=Olá! Gostaria de fazer um pedido.`, '_blank')}
             >
               Faça Seu Pedido
               <ArrowRight className="w-5 h-5 ml-2" />
