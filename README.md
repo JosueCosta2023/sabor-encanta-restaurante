@@ -120,9 +120,9 @@ O deploy pode ser feito facilmente em plataformas como Vercel, Netlify ou GitHub
 
 ### Mobile
 <div style="display: flex; justify-content: space-between;">
-  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.32.jpeg" alt="Hero" style="width: 33%;" />
-  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.32%20(1).jpeg" alt="Product" style="width: 33%;" />
-  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.33.jpeg" alt="Lead" style="width: 33%;" />
+  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.32.jpeg" alt="Hero" style="width: 30%;" />
+  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.32%20(1).jpeg" alt="Product" style="width: 30%;" />
+  <img src="./src/assets/WhatsApp%20Image%202025-08-13%20at%2010.51.33.jpeg" alt="Lead" style="width: 30%;" />
 </div>
 
 
